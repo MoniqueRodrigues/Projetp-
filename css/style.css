@@ -71,4 +71,20 @@ main .icones .icon-mens p {
   text-align: center;
   color: #313131;
 }
+
+footer {
+  background-color: #A52584;
+  margin-top: 60px;
+}
+
+footer .logo-footer {
+  text-align: center;
+  padding-top: 30px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
 /*# sourceMappingURL=style.css.map */
