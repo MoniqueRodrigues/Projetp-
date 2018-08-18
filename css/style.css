@@ -58,13 +58,14 @@ main .icones .icon-mens .icon {
   border-radius: 10px;
   border: 3px solid lightgrey;
   margin-left: 33.33%;
+  width: 100px;
 }
 
-main .icones .icon-mens .icon:hover {
+main .icones .icon:hover {
   border-color: #A52584;
 }
 
-main .icones .icon-mens p {
+main .icones p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,6 +86,6 @@ footer .logo-footer {
 footer p {
   color: white;
   text-align: center;
-  font-size: 15px;
+  font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */

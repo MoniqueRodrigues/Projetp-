@@ -1,0 +1,19 @@
+body {
+  background-color: white;
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  color: #313131;
+  margin: 10px 10px;
+}
+
+header h1 {
+  text-align: center;
+  color: #A52584;
+}
+
+main .questao .btn {
+  border: #313131;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+/*# sourceMappingURL=quiz.css.map */

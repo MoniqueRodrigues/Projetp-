@@ -3,44 +3,62 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>ElasInspiram</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
- 
-</head>
+    <title>quiz-ElasInspiram</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/quiz.css" />
 
+</head>
 
 <body>
 
-    <h1>Você conhece essas mulheres?</h1>
+
+    <header>
+        <h1>QUIZ- TESTE SEUS CONHECIMENTOS</h1>
+    </header>
+
+    <main>
+        <h2>Mulheres inspiradoras que foram responsáveis por grandes feitos em nossa história e que deixaram o seu legado de força, persistência e batalha.</h2>
+       <h4>Você sabe quem são essas mulheres?</h4>
+        <section class="questao">
+            <p>Como se chama a primeira mulher a receber um diploma de Medicina nos Estados Unidos?</p>
+            <button class="btn" value="verdadeiro">Elizabeth Blackwel</button>
+            <button class="btn" value="falso">Meghan Markle</button>
+        </section>
+
+        <section class="questao">
+            <p>Quem foi a primeira mulher afro-americana a chegar ao espaço?</p>
+            <button class="btn" value="verdadeiro">Mae Jemison</button>
+            <button class="btn" value="falso">Billie Jean King</button>
+        </section>
+        <section class="questao">
+
+            <p>Única mulher a ganhar a Medalha Fields, o Nobel da matemática:</p>
+            <button class="btn" value="verdadeiro">Maryam Mirzakhani</button>
+            <button class="btn" value="falso">Niede Guidom</button>
+
+        </section>
+        <section class="questao">
+
+            <p>A primeira Programadora da História</p>
+            <button class="btn" value="falso">Anne Blunt</button>
+            <button class="btn" value="verdadeiro">ada lovelace</button>
+
+        </section>
 
 
-    <h3>1- Como se chama a primeira mulher a receber um diploma de Medicina nos Estados Unidos?</h3>
-    <button id="btn" onclick="clique(sim)" value="1">Elizabeth Blackwel</button>
-    <button onclick="clique()" value="0">Meghan Markle</button>
 
-
-    <h3>2- Quem foi a primeira mulher afro-americana a chegar ao espaço?</h3>
-    <button>Mae Jemison</button>
-    <button>Billie Jean King</button>
-
-
-    <h3>3- Única mulher a ganhar a Medalha Fields, o Nobel da matemática:</h3>
-    <button>Maryam Mirzakhani</button>
-    <button>Niede Guidom</button>
-
-
-    <h3>4- A primeira Programadora da História</h3>
-    <button>Anne Blunt</button>
-    <button>ada lovelace</button>
+    </main>
 
 
 
 
+    <!--Gabarito:
+    a,a,a,b-->
 
 
 
-  
+
 </body>
 
-<script src="main.js"></script>
+<script src="./js/main.js"></script>
+
 </html>
